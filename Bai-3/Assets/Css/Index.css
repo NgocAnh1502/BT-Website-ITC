@@ -1,0 +1,15 @@
+.title h1{
+    color: black;
+    font-weight: 700;
+    size: 40px;
+}
+
+.title2 h2{
+    color: black;
+    size:20px;
+    font-weight: normal;
+}
+.table, th, td {
+    border: 1px solid black;
+    font: 40px;
+}

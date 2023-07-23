@@ -1,0 +1,19 @@
+.title h1 {
+    color: black;
+    font: 40px Arial;
+    font-weight: 700;
+}
+
+.title h2 {
+    color: black;
+    font: 20px Arial;
+}
+
+.title h3 {
+    color: black;
+    font: 20px Arial;
+}
+
+.form-submit {
+    font-size: medium;
+}

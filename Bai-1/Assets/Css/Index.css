@@ -1,0 +1,40 @@
+.title h1{
+    color: #C02A29;
+    font: 20px Arial;
+}
+
+.title h2 {
+    color: #2657AF;
+    font: 30px;
+}
+
+.h3{
+    color:  black;
+    font: 16px Arial;
+}
+
+.navbar {
+    height: 40px;
+    background-color: #2657AF;
+}
+
+.navbar .menu {
+    list-style-type: none;
+    
+}
+
+.navbar .menu li {
+    float: left;
+    margin: 0px 3px 0 3px;
+    /*    tren  phai  duoi  trai */
+}
+.navbar .menu li a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 4px 8px 4px 8px;
+}
+
+.content .content-head{
+    font: 20px Arial;
+}
