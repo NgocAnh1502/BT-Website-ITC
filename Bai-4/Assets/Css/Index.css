@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{}
+
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.header-menu {}
+
+.menu {}
+
+.menu>li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+.menu>li>a:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+.menu .more-menu{
+    position: relative;
+}
+
+.menu .more-menu:hover .submenu {
+    display: block;
+}
+
+.more-menu .submenu {
+    position: absolute;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+    background-color: #fff;
+}
+
+.more-menu .submenu li {
+    list-style-type: none;
+    display: block;
+}
+
+.more-menu .submenu li a {
+    display: block;
+    padding: 6px 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.more-menu .submenu li a:hover {
+    background-color: #ccc;
+}
+
+.header-search {}
+
+.header-search .search-icon {
+    font-size: 20px;
+    padding: 0 20px;
+    color: #fff;
+    float: right;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+.header-search .search-icon:hover {
+    background-color: red;
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background-image: url(https://www.w3schools.com/w3images/chicago.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 48px;
+    color: #fff;
+}
+
+.content .slider-title {
+    font: 24px arial;
+    margin: 12px 0;
+}
+
+#about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    width: 800px;
+    max-width: 100%;
+    height: 670px;
+    padding: 80px 5px 0 5px;
+}
+
+.about-content h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.about-content .description {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #6c6a6a;
+}
+
+.about-content span {
+    word-spacing: 2px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+.member {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.img-member {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member .img-member p{
+    font-style: normal;
+    color: black;
+}
+
+.member .img-member img {
+    width: 60%;
+    border-radius: 5px;
+}
+
+#tour-date {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.tour-content {
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    padding: 80px 5px 0 5px;
+    color: #fff;
+}
+
+.tour-content h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.description {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #6c6a6a;
+}
+
+.tour-content .form-date {
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+}
+
+.tour-content .form-date .date-item {
+    width: 100%;
+    height: 33.33%;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.tour-content .form-date .date-item p {
+    color: #6c6a6a;
+    padding-right: 10px;
+}
+
+.tour-content .form-date .date-item span {
+    color: #fff;
+    background-color: #f44336;
+}
+
+.tour-content .list-card {
+    margin-top: 30px;
+    width: 100%;
+    height: 470px;
+    padding: 32px 8px;
+    display: flex;
+    gap: 15px;
+}
+
+.tour-content .list-card .card {
+    height: 100%;
+    width: 33.33%;
+    background-color: #fff;
+}
+
+.tour-content .list-card .card img {
+    width: 100%;
+    height: 45%;
+}
+.tour-content .list-card .card .card-content {
+    width: 100%;
+    height: 55%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.tour-content .list-card .card .card-content .card-title {
+    color: black;
+    padding: 15px 0;
+}
+
+
+.tour-content .list-card .card .card-content .date {
+    color: #6c6a6a;
+    padding-bottom: 15px;
+}
+.tour-content .list-card .card .card-content .card-description {
+    color: black;
+    padding-bottom: 15px;
+}
+
+.tour-content .list-card .card .card-content button {
+    height: 40px;
+    width: 108px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #000;
+}
