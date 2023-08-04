@@ -1,0 +1,76 @@
+#header {
+    background-image: linear-gradient(to right, blue, rgb(144, 242, 255));
+    height: 200px;
+}
+
+.header-logo>img {
+    border-radius: 50px;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-text {
+    text-align: center;
+    color: darkgreen;
+    font: 10px arial;
+}
+
+.menu>li {
+    text-align: center;
+    float: left;
+    list-style-type: none;
+}
+
+.menu>li>a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+.menu>li>a:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+.menu .hd-menu{
+    position: relative;
+}
+
+.menu .hd-menu:hover .submenu {
+    display: block;
+}
+
+.hd-menu .submenu {
+    position: absolute;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+    background-color: #fff;
+}
+
+.hd-menu .submenu li {
+    list-style-type: none;
+    display: block;
+}
+
+.hd-menu .submenu li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: chocolate;
+}
+
+.content-img {
+    text-align: center;
+    background-color: #ccc;
+}
+.content-img>img {
+    border: solid 5px #fff;
+    border-radius: 5px;
+    max-width: 65%;
+    height: 10%;
+}
