@@ -1,0 +1,72 @@
+Bài 1: Cho string
+
+learning = ITC xin chao, hoc JS co ban cung ITC nhe, JS JS va JS;
+
+1.1 Chuỗi có bao nhiêu kí tự?
+1.2 Tìm vị trí của chữ ITC cuối cùng trong chuỗi trên
+1.3 Dùng split để tách các từ
+1.4 Thay thế tất cả từ JS thành Javascipt
+1.5 Kiểm tra xem có chữ JS trong chuỗi không
+
+Bài 2: Dựng 1 ô input nhận vào chuỗi từ người dùng.
+Xây dựng các button, mỗi button thực hiện các chức năng cụ thể sau:
+
+2.1 Chuẩn hóa chuỗi nhập vào
+2.2 Đếm xem chuỗi có bao nhiêu kí tự
+2.3 Tìm xem chuỗi có từ itc hay không, đếm xem itc xuất hiện bao nhiêu lần
+2.4 Thay thế itc thành ITC
+
+Bài 3: Cho array:
+
+number = [2,5,12,4,99,8];
+
+Sử dụng sort để sắp xếp mảng tăng dần, giảm dần
+
+Bài 4: 
+var persons = [
+    {
+        fullName: 'Tran Anh Khoa',
+        age: 18,
+        Address: 'Ha Noi'
+    },
+    {
+        fullName: 'Nguyen Quang Hoc',
+        age: 21,
+        Address: 'Bac Giang'
+    }, 
+    {
+        fullName: 'Vu Thanh Dat',
+        age: 20,
+        Address: 'Thai Binh'
+    },
+    {
+        fullName: 'Dang Phuc Linh',
+        age: 19,
+        Address: 'Ha Noi'
+    },
+]
+
+4.1 Dùng sort để sắp xếp mảng object có chiều tăng, giảm dần
+4.2 Dùng filter để tìm người ở Ha Noi
+2.3 Dùng map để viết lại array (Viết hoa tên toàn bộ các person )
+
+Bài 5: 
+Tạo 1 object constructor có chứa các thuộc tính(firstName, lastName, age, address, score)
+5.1 Xây dựng đối tượng Nam,Hoa,Mai,Dung,Hanh từ Object constructor trên
+5.2 Thêm mới thuộc tính className và phương thức getFullName cho các đối tượng trên
+
+Bài 6: 
+6.1 Sử dụng Date() In ra màn hình ngày tháng năm(dd-mm-yyyy) hôm nay
+6.2 Cho mảng các giải thưởng, xây dựng chức năng quay số ngẫu nhiên một giải thưởng và in ra màn hình
+
+var gift = [
+    'Bạn đen lắm',
+    '10 coin',
+    '20 coin',
+    '30 coin',
+    'Giải khuyến khích',
+    'Giải nhì',
+    'Giải nhất',
+    'Giải đặc biệt (^.^)'
+];
+
